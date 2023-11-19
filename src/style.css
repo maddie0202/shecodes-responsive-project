@@ -1,0 +1,25 @@
+:root{
+    --primary-color: #1c4662;
+    --secondary-color: #e0d3b8;
+  --tertiary-color:#c2d3e0;
+}
+
+.custom-navbar{
+    background-color:var(--primary-color) !important;
+}
+.navbar-brand{
+    color: var(--tertiary-color);
+    font-size: 32px;
+}
+.navbar-brand:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+.nav-link{
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: var(--tertiary-color);
+    cursor: pointer;
+}
