@@ -1,12 +1,12 @@
 :root{
     --primary-color: #1c4662;
     --secondary-color: #e0d3b8;
-  --tertiary-color:#c2d3e0;
+    --tertiary-color:#c2d3e0;
 }
 body{
     margin: 90px;
     font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Martian Mono', monospace;
     background-color: var(--secondary-color);
 }
 
@@ -38,8 +38,6 @@ body{
     margin: 0;
     text-align: center;
     padding: 80px;
-    
-    
     color: var(--primary-color);
     font-size: 72px;
 }
