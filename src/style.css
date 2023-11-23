@@ -61,7 +61,6 @@ h1{
     
     text-align: justify;
 }
-
 .mt-box{
     margin-bottom: 20px;
     padding: 20px;
@@ -74,21 +73,52 @@ h1{
 p{
     text-align: justify;
 }
-img{
-    width: 200px;
-    height: 300px;
-    margin-bottom: 30px;
-}
+
 .btn{
     text-decoration: none;
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     padding: 9px 16px;
 }
 .btn:hover{
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
     cursor: pointer;
 }
+.last-img{
+    height: 300px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+h5{
+    margin: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+h6{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.last-btn{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.long{
+    font-size: 20px;
+    margin: 9px;
+}
+.last-box{
+    transition: all 200ms ease-in-out;
+    padding: 20px ;
+    border-radius: 4px;
+}
+.last-box:hover{
+    background-color: var(--tertiary-color);
+}
+
 @media screen and (max-width: 576px) {
     h3, h2{
         font-size: 28px;
@@ -97,7 +127,7 @@ img{
     }
     
     h1{
-        font-size: 55px !important;
+        font-size: 52px !important;
         padding: 0px !important;
     }
     .in-section{
@@ -110,11 +140,5 @@ img{
     } 
     .in-h4{
         font-size: 25px;
-    }
-    .description{
-        
-        text-align: center;
-        left: 0;
-        right: 0;    
     }
 }
