@@ -61,29 +61,36 @@ h1{
     
     text-align: justify;
 }
-.mt-box{
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 4px;
-    transition: all 200ms ease-in-out;
+.tf-img{
+    height: 300px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
-.mt-box:hover{
-    background-color: var(--tertiary-color);
-}
-p{
-    text-align: justify;
-}
-
 .btn{
     text-decoration: none;
     background-color: var(--primary-color);
     color: var(--tertiary-color);
     padding: 9px 16px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 .btn:hover{
     background-color: var(--primary-color);
     color:var(--secondary-color);
     cursor: pointer;
+}
+.short{
+    padding: 21.5px;
+}
+.tp-section{
+    margin: 80px;
+    background-color: var(--tertiary-color);
+    padding: 50px;
+    border-radius: 4px;
+    text-align: justify;
 }
 .last-img{
     height: 300px;
@@ -101,11 +108,6 @@ h6{
     font-size: 18px;
     margin-bottom: 20px;
 }
-.last-btn{
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 30px;
-}
 .long{
     font-size: 20px;
     margin: 9px;
@@ -119,7 +121,11 @@ h6{
     background-color: var(--tertiary-color);
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
+    body{
+        margin: 40px;
+        padding: 0;
+    }
     h3, h2{
         font-size: 28px;
         margin-bottom: 10px;
@@ -127,6 +133,7 @@ h6{
     }
     
     h1{
+        margin-top: 90px;
         font-size: 52px !important;
         padding: 0px !important;
     }
@@ -140,5 +147,19 @@ h6{
     } 
     .in-h4{
         font-size: 25px;
+    }
+    .tf-img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .btn,
+    .short {
+        width: 100%; 
+    }
+    
+    .tp-section {
+        margin: 20px 0; 
+        padding: 20px; 
     }
 }
