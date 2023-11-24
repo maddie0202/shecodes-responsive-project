@@ -120,6 +120,10 @@ h6{
 .last-box:hover{
     background-color: var(--tertiary-color);
 }
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
 
 @media screen and (max-width: 768px) {
     body{
