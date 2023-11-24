@@ -146,13 +146,10 @@ footer{
         padding: 0px !important;
     }
     .in-section{
-        position: absolute;
-        left: 0;
-        right: 0;
-        padding: 15px;
-        box-sizing: border-box;
-        
-    } 
+        margin: 20px 0; 
+        padding: 20px; 
+        text-align: center;
+    }
     .in-h4{
         font-size: 25px;
     }
